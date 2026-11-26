@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.cfstudio.hydrogenos"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.cfstudio.hydrogenos"
