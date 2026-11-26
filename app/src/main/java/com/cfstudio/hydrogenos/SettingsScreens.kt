@@ -304,7 +304,7 @@ fun AboutScreen(
         SettingsSection("RELEASE INFORMATION", "Verified local build metadata", Icons.Outlined.Info) {
             SettingInfo("Application", "com.cfstudio.hydrogenos")
             SettingInfo("Version", "V1 · " + BuildConfig.VERSION_NAME + " (" + BuildConfig.VERSION_CODE + ")")
-            SettingInfo("Android", "Minimum API " + Build.VERSION_CODES.O + " · Compile API 37")
+            SettingInfo("Android", "Minimum API " + Build.VERSION_CODES.O + " · Compile API 36")
             SettingInfo("Default Home", if (activity.isHydrogenDefaultHome()) "Selected by Android" else "Not selected")
             SettingInfo("Renderer", "AGSL wallpaper displacement on API 33+; translucent fallback below API 33. Intro uses an OpenGL ES 2.0 mesh.")
             SettingInfo("Update source", if (BuildConfig.UPDATE_FEED_URL.isBlank()) "Not configured" else BuildConfig.UPDATE_FEED_URL)
