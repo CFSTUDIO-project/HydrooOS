@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180">
+<rect width="1000" height="180" rx="22" fill="#071321"/>
+<g font-family="Arial"><text x="40" y="55" font-size="23" fill="#effcff" font-weight="bold">QA STATUS / HONEST BASELINE</text>
+<rect x="40" y="82" width="245" height="48" rx="14" fill="#153c39" stroke="#4fd3aa"/><text x="162" y="112" text-anchor="middle" font-size="15" fill="#a5f1d5">STATIC INSPECTION / PASS</text>
+<rect x="310" y="82" width="290" height="48" rx="14" fill="#403521" stroke="#e3bd72"/><text x="455" y="112" text-anchor="middle" font-size="15" fill="#ffe1a4">ANDROID BUILD / NOT TESTED</text>
+<rect x="625" y="82" width="335" height="48" rx="14" fill="#403521" stroke="#e3bd72"/><text x="792" y="112" text-anchor="middle" font-size="15" fill="#ffe1a4">DEVICE QA / NOT TESTED</text>
+</g></svg>
