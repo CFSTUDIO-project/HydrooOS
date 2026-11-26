@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390">
+<rect width="1000" height="390" rx="28" fill="#071321"/>
+<g font-family="Arial" text-anchor="middle">
+<rect x="35" y="75" width="205" height="220" rx="20" fill="#0c536d" stroke="#66dce9"/>
+<text x="137" y="122" font-size="18" fill="#eaffff">1 · Wallpaper</text><text x="137" y="160" font-size="14" fill="#c1edf3">Hydrogen-owned</text><text x="137" y="184" font-size="14" fill="#c1edf3">Bitmap texture</text>
+<path d="M245 185 H285" stroke="#b7f5fa" stroke-width="3"/><path d="M275 177 L285 185 L275 193" stroke="#b7f5fa" stroke-width="3" fill="none"/>
+<rect x="290" y="75" width="205" height="220" rx="20" fill="#13526a" stroke="#66dce9"/>
+<text x="392" y="122" font-size="18" fill="#eaffff">2 · AGSL</text><text x="392" y="160" font-size="14" fill="#c1edf3">RuntimeShader</text><text x="392" y="184" font-size="14" fill="#c1edf3">API 33+</text>
+<path d="M500 185 H540" stroke="#b7f5fa" stroke-width="3"/><path d="M530 177 L540 185 L530 193" stroke="#b7f5fa" stroke-width="3" fill="none"/>
+<rect x="545" y="75" width="205" height="220" rx="20" fill="#17405b" stroke="#66dce9"/>
+<text x="647" y="122" font-size="18" fill="#eaffff">3 · Displace</text><text x="647" y="160" font-size="14" fill="#c1edf3">Offset texture</text><text x="647" y="184" font-size="14" fill="#c1edf3">samples</text>
+<path d="M755 185 H795" stroke="#b7f5fa" stroke-width="3"/><path d="M785 177 L795 185 L785 193" stroke="#b7f5fa" stroke-width="3" fill="none"/>
+<rect x="800" y="75" width="165" height="220" rx="20" fill="#163d50" stroke="#66dce9"/>
+<text x="882" y="122" font-size="18" fill="#eaffff">4 · Material</text><text x="882" y="160" font-size="14" fill="#c1edf3">Tint · rim</text><text x="882" y="184" font-size="14" fill="#c1edf3">highlight</text>
+<text x="500" y="347" font-size="17" fill="#9cdae2">No screenshot capture · no cross-app pixels · explicit fallback below API 33</text>
+</g></svg>
