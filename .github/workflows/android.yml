@@ -35,8 +35,11 @@ jobs:
         with:
           gradle-version: '9.6.0'
 
-      - name: Install Android SDK platform
+      # Modern Android SDK repositories no longer publish the legacy "tools" package.
+      - name: Install Android SDK command-line tools
         uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Install compile SDK and build tools
         run: sdkmanager "platforms;android-37" "build-tools;37.0.0"
