@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs>
+<linearGradient id="p0" x2="1" y2="1"><stop stop-color="#030a1b"/><stop offset=".5" stop-color="#08769f"/><stop offset="1" stop-color="#0cddcb"/></linearGradient>
+<linearGradient id="p1" x2="1" y2="1"><stop stop-color="#040818"/><stop offset=".6" stop-color="#234eb4"/><stop offset="1" stop-color="#47cdf2"/></linearGradient>
+<linearGradient id="p2" x2="1" y2="1"><stop stop-color="#050c18"/><stop offset=".6" stop-color="#0a7d70"/><stop offset="1" stop-color="#63e2b8"/></linearGradient>
+<linearGradient id="p3" x2="1" y2="1"><stop stop-color="#0b0a20"/><stop offset=".6" stop-color="#423096"/><stop offset="1" stop-color="#31afde"/></linearGradient>
+<linearGradient id="p4" x2="1" y2="1"><stop stop-color="#030e1b"/><stop offset=".6" stop-color="#0e507a"/><stop offset="1" stop-color="#a9e8ef"/></linearGradient>
+<linearGradient id="p5" x2="1" y2="1"><stop stop-color="#090d19"/><stop offset=".6" stop-color="#5d2b67"/><stop offset="1" stop-color="#3094b7"/></linearGradient>
+<linearGradient id="p6" x2="1" y2="1"><stop stop-color="#04111b"/><stop offset=".6" stop-color="#0b6c85"/><stop offset="1" stop-color="#c8e4e2"/></linearGradient>
+<linearGradient id="p7" x2="1" y2="1"><stop stop-color="#0c0d18"/><stop offset=".6" stop-color="#374f72"/><stop offset="1" stop-color="#7baecb"/></linearGradient>
+<linearGradient id="p8" x2="1" y2="1"><stop stop-color="#020b14"/><stop offset=".6" stop-color="#034b59"/><stop offset="1" stop-color="#3ab69b"/></linearGradient>
+<linearGradient id="p9" x2="1" y2="1"><stop stop-color="#0d0e18"/><stop offset=".6" stop-color="#5a553f"/><stop offset="1" stop-color="#bacda5"/></linearGradient>
+<linearGradient id="p10" x2="1" y2="1"><stop stop-color="#04081a"/><stop offset=".6" stop-color="#213f7d"/><stop offset="1" stop-color="#82c7e0"/></linearGradient>
+<linearGradient id="p11" x2="1" y2="1"><stop stop-color="#070e16"/><stop offset=".6" stop-color="#185f65"/><stop offset="1" stop-color="#6cbfb0"/></linearGradient>
+</defs>
+<rect width="1200" height="620" rx="28" fill="#071321"/>
+<text x="55" y="58" font-family="Arial" font-size="26" letter-spacing="3" fill="#e9fcff">HYDROGEN WALLPAPER COLLECTION / 12</text>
+<g stroke="#c8f8fb" stroke-opacity=".36" stroke-width="2">
+<rect x="55" y="92" width="160" height="220" rx="22" fill="url(#p0)"/><rect x="245" y="92" width="160" height="220" rx="22" fill="url(#p1)"/><rect x="435" y="92" width="160" height="220" rx="22" fill="url(#p2)"/><rect x="625" y="92" width="160" height="220" rx="22" fill="url(#p3)"/><rect x="815" y="92" width="160" height="220" rx="22" fill="url(#p4)"/><rect x="1005" y="92" width="140" height="220" rx="22" fill="url(#p5)"/>
+<rect x="55" y="350" width="160" height="220" rx="22" fill="url(#p6)"/><rect x="245" y="350" width="160" height="220" rx="22" fill="url(#p7)"/><rect x="435" y="350" width="160" height="220" rx="22" fill="url(#p8)"/><rect x="625" y="350" width="160" height="220" rx="22" fill="url(#p9)"/><rect x="815" y="350" width="160" height="220" rx="22" fill="url(#p10)"/><rect x="1005" y="350" width="140" height="220" rx="22" fill="url(#p11)"/>
+</g>
+<g fill="none" stroke="#e6ffff" stroke-opacity=".32" stroke-width="14">
+<path d="M60 250 Q140 120 210 250"/><path d="M250 160 Q330 280 400 150"/><path d="M440 260 Q520 120 590 240"/><path d="M630 160 Q700 270 780 150"/><path d="M820 270 Q900 120 970 270"/><path d="M1010 160 Q1080 270 1140 140"/>
+<path d="M60 500 Q140 380 210 500"/><path d="M250 430 Q330 540 400 420"/><path d="M440 510 Q520 380 590 500"/><path d="M630 420 Q700 540 780 410"/><path d="M820 510 Q900 380 970 510"/><path d="M1010 430 Q1080 540 1140 410"/>
+</g>
+</svg>
