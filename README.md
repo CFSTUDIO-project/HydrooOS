@@ -40,7 +40,7 @@
 4. After a successful run, download the HydrogenOS-V1-debug artifact.
 5. Extract and install app-debug.apk.
 
-The workflow installs JDK 17, Gradle 9.6.0 and Android SDK 37; generates the Gradle Wrapper on the runner; runs unit tests and assembleDebug; and uploads the APK. This text-only source package intentionally does not store a wrapper JAR.
+The workflow installs JDK 17, Gradle 9.6.0 and Android SDK 36; generates the Gradle Wrapper on the runner; runs unit tests and assembleDebug; and uploads the APK. This text-only source package intentionally does not store a wrapper JAR.
 
 ## Select Hydrogen as Home
 
