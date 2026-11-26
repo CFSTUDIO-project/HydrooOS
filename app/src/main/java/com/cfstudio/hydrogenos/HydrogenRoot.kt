@@ -67,13 +67,14 @@ fun HydrogenRoot(activity: MainActivity, preferenceStore: HydrogenPreferenceStor
     }
     LaunchedEffect(Unit) { apps = loadLaunchableApps(context) }
 
+    val systemDarkTheme = isSystemInDarkTheme()
     SideEffect {
         activity.window.statusBarColor = android.graphics.Color.TRANSPARENT
         activity.window.navigationBarColor = android.graphics.Color.TRANSPARENT
         WindowCompat.setDecorFitsSystemWindows(activity.window, false)
         val dark = when (prefs.theme) {
             "light" -> false
-            "system" -> isSystemInDarkTheme()
+            "system" -> systemDarkTheme
             else -> true
         }
         WindowCompat.getInsetsController(activity.window, activity.window.decorView).apply {
