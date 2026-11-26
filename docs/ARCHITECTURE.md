@@ -98,7 +98,7 @@ Render loop hanya hidup selama intro terlihat. Activity pause/dispose mempause G
 - Kotlin Compose plugin 2.4.21.
 - Compose BOM 2026.09.00.
 - AndroidX Activity Compose 1.13.0, Core 1.19.1, Lifecycle 2.10.0, DataStore 1.3.0.
-- compileSdk 37, targetSdk 35, minSdk 26.
+- compileSdk 36, targetSdk 35, minSdk 26.
 
 Versi dipilih dari release notes resmi pada tanggal riset. Runner CI adalah otoritas untuk menyelesaikan dependency serta membangun APK. Workspace ini tidak memiliki Android SDK/Gradle untuk eksekusi build lokal.
 
