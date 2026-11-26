@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+<rect width="1000" height="400" rx="28" fill="#071321"/><text x="40" y="52" font-family="Arial" font-size="24" letter-spacing="3" fill="#e9fcff">SETTINGS / V1</text>
+<g font-family="Arial">
+<g fill="#123147" stroke="#55cddd" stroke-opacity=".65">
+<rect x="40" y="85" width="285" height="120" rx="18"/><rect x="355" y="85" width="285" height="120" rx="18"/><rect x="670" y="85" width="285" height="120" rx="18"/>
+<rect x="40" y="235" width="285" height="120" rx="18"/><rect x="355" y="235" width="285" height="120" rx="18"/><rect x="670" y="235" width="285" height="120" rx="18"/>
+</g>
+<g fill="#effcff" font-size="18" font-weight="bold"><text x="62" y="123">01 · Appearance</text><text x="377" y="123">02 · Home</text><text x="692" y="123">03 · App drawer</text><text x="62" y="273">04 · Motion</text><text x="377" y="273">05 · Widgets & system</text><text x="692" y="273">06 · Privacy & About</text></g>
+<g fill="#a8cbd5" font-size="13"><text x="62" y="153">Theme / accent / material / wallpaper</text><text x="377" y="153">Columns / size / labels / dock</text><text x="692" y="153">Grid or list / sort mode</text><text x="62" y="303">Speed / Reduce Motion / battery</text><text x="377" y="303">AppWidgetHost / Home role</text><text x="692" y="303">Local data / release / replay intro</text></g>
+</g></svg>
