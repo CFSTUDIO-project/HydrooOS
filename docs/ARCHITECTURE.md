@@ -96,11 +96,11 @@ Render loop hanya hidup selama intro terlihat. Activity pause/dispose mempause G
 
 - Android Gradle Plugin 9.5.0; Gradle 9.6.0; Java 17.
 - Kotlin Compose plugin 2.4.21.
-- Compose BOM 2026.09.00.
-- AndroidX Activity Compose 1.13.0, Core 1.19.1, Lifecycle 2.10.0, DataStore 1.3.0.
+- Compose BOM 2025.12.00.
+- AndroidX Activity Compose 1.13.0, Core 1.17.0, Lifecycle 2.10.0, DataStore 1.3.0.
 - compileSdk 36, targetSdk 35, minSdk 26.
 
-Versi dipilih dari release notes resmi pada tanggal riset. Runner CI adalah otoritas untuk menyelesaikan dependency serta membangun APK. Workspace ini tidak memiliki Android SDK/Gradle untuk eksekusi build lokal.
+Compose BOM 2025.12.00 dipilih agar dependency Compose tidak mensyaratkan compileSdk 37; CI menargetkan Android SDK 36. Versi dependency harus disinkronkan kembali dengan hasil CI yang benar-benar lulus. Workspace ini tidak memiliki Android SDK/Gradle untuk eksekusi build lokal.
 
 ## 8. Update feed (opsional)
 
