@@ -4,12 +4,15 @@ import android.graphics.Bitmap
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.ChevronRight
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.cfstudio.hydrogenos.graphics.LiquidGlassSurface
@@ -49,7 +52,7 @@ fun ScreenHeader(
     Row(Modifier.fillMaxWidth(), verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
         androidx.compose.material3.IconButton(onClick = onBack) {
             androidx.compose.material3.Icon(
-                androidx.compose.material.icons.outlined.ChevronRight,
+                Icons.Outlined.ChevronRight,
                 contentDescription = "Kembali",
                 tint = MaterialTheme.colorScheme.onSurface,
                 modifier = androidx.compose.ui.Modifier.graphicsLayer(scaleX = -1f)
