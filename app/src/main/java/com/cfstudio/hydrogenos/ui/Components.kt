@@ -49,7 +49,7 @@ fun ScreenHeader(
     Row(Modifier.fillMaxWidth(), verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
         androidx.compose.material3.IconButton(onClick = onBack) {
             androidx.compose.material3.Icon(
-                androidx.compose.material.icons.automirrored.outlined.ArrowBack,
+                androidx.compose.material.icons.outlined.ChevronLeft,
                 contentDescription = "Kembali",
                 tint = MaterialTheme.colorScheme.onSurface
             )
