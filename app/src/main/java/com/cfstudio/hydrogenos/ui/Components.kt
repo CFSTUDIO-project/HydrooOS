@@ -49,9 +49,10 @@ fun ScreenHeader(
     Row(Modifier.fillMaxWidth(), verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
         androidx.compose.material3.IconButton(onClick = onBack) {
             androidx.compose.material3.Icon(
-                androidx.compose.material.icons.outlined.ChevronLeft,
+                androidx.compose.material.icons.outlined.ChevronRight,
                 contentDescription = "Kembali",
-                tint = MaterialTheme.colorScheme.onSurface
+                tint = MaterialTheme.colorScheme.onSurface,
+                modifier = androidx.compose.ui.Modifier.graphicsLayer(scaleX = -1f)
             )
         }
         Spacer(Modifier.width(4.dp))
