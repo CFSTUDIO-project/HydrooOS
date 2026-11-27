@@ -91,7 +91,7 @@ private class DropletRenderer : GLSurfaceView.Renderer {
     override fun onSurfaceChanged(gl: GL10?, width: Int, height: Int) {
         GLES20.glViewport(0, 0, width, height)
         Matrix.perspectiveM(projection, 0, 42f, width.toFloat() / max(1, height), 0.1f, 20f)
-        Matrix.setLookAtM(view, 0, 0f, 0f, 3.4f, 0f, 0f, 0f, 1f, 0f)
+        Matrix.setLookAtM(view, 0, 0f, 0f, 3.4f, 0f, 0f, 0f, 0f, 1f, 0f)
     }
 
     override fun onDrawFrame(gl: GL10?) {
